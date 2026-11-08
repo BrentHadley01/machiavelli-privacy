@@ -17,7 +17,7 @@
 <body>
 <main>
 <h1>Machiavelli Privacy Policy</h1>
-<p class="muted">Last updated: October 28, 2026</p>
+<p class="muted">Last updated: November 7, 2026</p>
 
 <p>Machiavelli is a card game. This policy explains what the app collects and why. In short: almost nothing, and nothing is sold or used for advertising.</p>
 
@@ -35,7 +35,13 @@
 
 <h2>Nearby play</h2>
 <p>Nearby games connect directly between players using Google Nearby Connections. Your display name, game actions, and the cards you are allowed to see are exchanged with the other phones at your table. Nearby games do not use our online backend or require internet access. Each player confirms a matching connection code before joining. Bluetooth and local-network permissions are used for discovering and connecting to nearby players; we do not read your contacts or location coordinates.</p>
-<p>Keep the app open while playing. Nearby game state and temporary reconnect identifiers are held in memory and are not uploaded to our servers. Board-style preferences are saved on your device.</p>
+<p>Nearby table state, your cards, and private reconnect identifiers are saved on your device so a game can recover after the app closes. Leaving the table clears that saved table. This Nearby data is not uploaded to our servers. The host must reopen the app for a force-closed table to resume. Board-style preferences are also saved on your device.</p>
+<h2>Optional table messages and reactions</h2>
+<p>In versions with table reactions, you can choose built-in quick phrases and emoji reactions to send to the other players in your room. There is no custom text-entry option. Online events are processed by Supabase Realtime and shown briefly during play; the app does not provide a chat history. Sender names identify who sent each event. Nearby events pass directly between the connected phones. You can mute incoming phrases and reactions.</p>
+
+<h2>Live table previews</h2>
+<p>Other players can see cards you place or rearrange before your turn ends, including unfinished placements that you later undo. Untouched hand cards and private card selections are not shared in previews. Online previews pass through Supabase Realtime; Nearby previews pass directly between connected players. The app does not keep a preview history, and expired previews return to the last confirmed board.</p>
+
 <h2>Where data is stored</h2>
 <p>Online game data is stored with our hosting provider, Supabase, on servers in the United States, and is encrypted in transit.</p>
 
